@@ -1,0 +1,32 @@
+.flex-row {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+}
+
+.flex-item-fill {
+    -webkit-flex: auto;
+    flex: auto;
+}
+
+.flex-item-1 {
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.flex-column {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+}
+
+.align-item-center {
+    -webkit-align-items: center;
+    align-items: center;
+}
